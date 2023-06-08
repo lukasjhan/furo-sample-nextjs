@@ -17,3 +17,7 @@ yarn dev
 ```
 
 Server start at http://localhost:3000
+
+## SDK
+
+This sample project use this [SDK](https://github.com/lukasjhan/furo-sdk-purejs).

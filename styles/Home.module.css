@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .title a {
@@ -32,7 +33,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
@@ -77,10 +77,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
 }
 
 @media (max-width: 600px) {

@@ -8,7 +8,7 @@ Check Furo's [Official Documentation](https://docs.furo.one).
 
 ## How to start
 
-1. Input your client id and redirect uri in page/index.js
+1. Input your client id in page/index.js
 
 2. Run server
 
@@ -17,7 +17,3 @@ yarn dev
 ```
 
 Server start at http://localhost:3000
-
-## SDK
-
-This sample project use this [SDK](https://github.com/lukasjhan/furo-sdk-purejs).

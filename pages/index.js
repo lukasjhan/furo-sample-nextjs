@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import axios from 'axios';
 
-const CLIENT_ID = '';
+const CLIENT_ID = process.env.NEXT_PUBLIC_CLIENT_ID || '';
 
 const authenticateWithCode = async (code) => {
   const { data } = await axios.post(
